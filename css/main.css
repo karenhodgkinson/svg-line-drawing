@@ -1,6 +1,13 @@
-#title {
+html {
   font-family: "Unica One", sans-serif;
   color: #fff;
+}
+
+h1 {
+  position: absolute;
+  top: 150px;
+  left: 110px;
+  width: 280px;
 }
 
 #narwhal-body {
@@ -64,11 +71,11 @@
   }
 
   50% {
-    opacity: .4;
+    opacity: 1;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 
 }
